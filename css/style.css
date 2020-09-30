@@ -21,12 +21,12 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
-    /* Center Content on the screen */
+        /* Center Content on the screen */
     display: flex;
     align-items: center;
     justify-content: center;
 
-    /* For Opaque container function */
+        /* For Opaque container function */
     position: relative;
 }
 
@@ -179,7 +179,26 @@ body {
 
 }
 
+/* Features */
 .feature {
     text-align: center;
     margin-bottom: 40px;
 }
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+/* End of Features */
