@@ -7,6 +7,7 @@
     <title>Whiskey Drop | Taste a new whiskey every month</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
 </head>
 
@@ -49,7 +50,7 @@
     <!-- /Navbar -->
 
     <!-- Article -->
-    <article class="container mt-3">
+    <div class="container alert-container">
       <div class="row d-none d-sm-block">
           <div class="col-12">
               <div class="alert alert-warning">
@@ -60,45 +61,48 @@
     <!-- /Article -->
 
     <!-- Call Out -->
-    <div class="row">
-      <div class="col-12">
-          <section class="callout jumbotron text-center">
-              <h1>The finest whiskeys delivered to your doorstep.</h1>
-              <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
-                  <s class="d-none d-sm-inline">€19.99</s>
-                  <span class="d-inline d-sm-none"><br></span>
-                  <strong><mark>First one is free!</mark></strong></p>
-              <button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
-              <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
-          </section>
-      </div>
-    </div>
+        <div class="container callout-container">
+            <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
+                        <s class="d-none d-sm-inline">€19.99</s>
+                        <span class="d-inline d-sm-none"><br></span>
+                        <strong><mark>First one is free!</mark></strong></p>
+                    <button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
+                </section>
+            </div>
+            </div>
+            </div>
+        </div>
         <!-- /Callout -->
-        <hr>
 
         <!-- Quotes -->
-        <section class="quotes">
-          <div class="row">
-            <div class="col-12 my-5">
-              <h2 class="text-uppercase">Quotes:</h2>
-              </hr>
-            </div>
-          </div>
-
-          <div class="row">
-             <div class="col-12 col-md-6">
-                <div class="media">
-                  <div class="d-none d-sm-block">
-                    <img src="img/girl-image.png" class="rounded-circle mr-3" height="100" width="100">
-                  </div>
-                  <div class="media-body">
-                      <blockquote class="blockquote">
-                        <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-                        <footer>Jane Doe on <cite title="Twitter">Twitter</cite></footer>
-                      </blockquote>
-                  </div>
+            <div class="container quotes-container">
+                <section class="quotes">
+                <div class="row">
+                    <div class="col-12 my-5">
+                    <h2 class="text-uppercase">Quotes:</h2>
+                    </hr>
+                    </div>
                 </div>
-             </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="media">
+                    <div class="d-none d-sm-block">
+                        <img src="img/girl-image.png" class="rounded-circle mr-3" height="100" width="100">
+                    </div>
+                    <div class="media-body">
+                        <blockquote class="blockquote">
+                            <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                            <footer>Jane Doe on <cite title="Twitter">Twitter</cite></footer>
+                        </blockquote>
+                    </div>
+                    </div>
+                </div>
 
             <div class="col-12 col-md-6">
               <div class="media">
@@ -115,17 +119,19 @@
               </div>
           </div>
         </section>
+        </div>
         <!-- /quotes -->
-        <hr>
+        
 
         <!-- Features -->
-      <section class="features">
-          <div class="row">
-              <div class="col-12 my-5">
-            <h2 class="text-uppercase">Features:</h2>
-        </hr>
-              </div>
-          </div>
+        <div class="container features-container">
+            <section class="features">
+                <div class="row">
+                    <div class="col-12 my-5">
+                    <h2 class="text-uppercase">Features:</h2>
+                </hr>
+                    </div>
+                </div>
 
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4">
@@ -153,9 +159,11 @@
           </div>
         </div>
       </section>
+    </div>
         <!-- /features -->
 
         <!-- Monthly favourites -->
+        <div class="container monthly-favourites-container">
         <section class="monthly-favourites">
             <h1>Monthly Favourites</h1>
             <br>
@@ -202,18 +210,18 @@
 
               </table>
         </section>
+        </div>
         <!-- /Monthly Favourites -->
-    </article>
 
-    <div class="modal" tabindex="-1" id="signUpModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title"> Sign Up to Whiskey Drop!</h5>
-                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-          </button>
-             </div>
+        <div class="modal" tabindex="-1" id="signUpModal">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title"> Sign Up to Whiskey Drop!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+                </div>
 
              <div class="modal-body">
                 <!-- Bootstrap Form -->
