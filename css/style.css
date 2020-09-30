@@ -2,6 +2,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Container Wrapper */
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+/* End of Container Wrapper */
+
 .callout-container {
     height: 100vh;
     background: url("../img/whiskey-background.jpg") no-repeat bottom right fixed; 
@@ -52,22 +63,46 @@ body {
 .monthly-favourites {
 
 }
+/* Page Headers */
+.page-header {
+    margin-bottom: 40px;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* End of Page Headers */
 
 /* Block Dividers */
 .block-divider {
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
 }
 
 .block-divider--orange {
     background-color: #f05f40;
 }
+.block-divider--white {
+    background-color: #fff;
+}
+
 
 .block-divider--short {
     width: 35px;
 }
 /* End of Block Dividers */
+
+/* Content Containers */
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+/* End of Content-Containers */
 
 /* Navbar */
 .navalert-container {
@@ -142,4 +177,9 @@ body {
     background-color:#df4929;
     border-color:#df4929;
 
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
 }
